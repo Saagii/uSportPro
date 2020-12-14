@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #4b22e1, #4120c5, #381da9, #2f1a8e, #271674);
+    background-image: radial-gradient(circle, #5931ea, #4627be, #341c95, #23136d, #140947);
+    color: white;
+}
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+.heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Righteous', cursive;
+    font-size: 110px;
+    text-shadow: 2px 4px 10px #000000;
+}
+
+.notice:hover {
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0%   {text-shadow: 2px 4px 10px #000000;}
+    50%  {text-shadow: 2px 4px 5px #000000; font-size: 30px; margin-top: 60px;}
+}
+
+.sub-heading, 
+.notice {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+.notice {
+    margin-top: 80px;
+    cursor: pointer;
+}
